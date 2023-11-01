@@ -9,6 +9,7 @@ import {
 import "./assets/bootstrap.custom.css";
 import App from "./App.jsx";
 import HomeScreen from "./Screens/HomeScreen";
+import "./assets/index.css";
 
 const router = createBrowserRouter(
   createRoutesFromElements(

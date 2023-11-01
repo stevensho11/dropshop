@@ -57,7 +57,7 @@ const products = [
     category: "Consoles and Video Games",
     price: 599.99,
     countInStock: 8,
-    rating: 4.7,
+    rating: 3.7,
     numReviews: 14,
   },
   {
@@ -81,7 +81,7 @@ const products = [
     category: "Consoles and Video Games",
     price: 349.99,
     countInStock: 15,
-    rating: 4.4,
+    rating: 2.4,
     numReviews: 9,
   },
   {

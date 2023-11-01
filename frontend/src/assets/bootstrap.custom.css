@@ -53,7 +53,7 @@
   --bs-danger-text: #b93d30;
   --bs-light-text: #7b8a8b;
   --bs-dark-text: #7b8a8b;
-  --bs-primary-bg-subtle: #17529e;
+  --bs-primary-bg-subtle: #d8dbdf;
   --bs-secondary-bg-subtle: #f4f4f4;
   --bs-success-bg-subtle: #d1f2eb;
   --bs-info-bg-subtle: #d6eaf8;
@@ -4027,7 +4027,6 @@ fieldset:disabled .btn {
   --bs-navbar-brand-font-size: 1.25rem;
   --bs-navbar-brand-color: rgba(var(--bs-emphasis-color-rgb), 1);
   --bs-navbar-brand-hover-color: rgba(var(--bs-emphasis-color-rgb), 1);
-
   --bs-navbar-nav-link-padding-x: 0.5rem;
   --bs-navbar-toggler-padding-y: 0.25rem;
   --bs-navbar-toggler-padding-x: 0.75rem;
@@ -9789,6 +9788,7 @@ fieldset:disabled .btn {
   .gap-sm-5 {
     gap: 3.6rem !important;
   }
+
   .row-gap-sm-0 {
     row-gap: 0 !important;
   }
