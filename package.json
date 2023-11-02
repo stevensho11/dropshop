@@ -1,5 +1,15 @@
 {
   "devDependencies": {
     "vite-plugin-eslint": "^1.8.1"
-  }
+  },
+  "name": "dropshop",
+  "version": "1.0.0",
+  "description": "eCommerce app built with MERN stack",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "author": "Stevens Ho",
+  "license": "MIT"
 }

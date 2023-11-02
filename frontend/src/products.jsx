@@ -8,7 +8,7 @@ const products = [
     brand: "Microsoft",
     category: "Electronics",
     price: 1099.0,
-    countInStock: 4,
+    countInStock: 0,
     rating: 4.5,
     numReviews: 2,
   },
