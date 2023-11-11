@@ -14,7 +14,7 @@ const addOrderItems = asyncHandler(async (req, res) => {
         taxPrice,
         shippingPrice,
         totalPrice
-    } = res.body;
+    } = req.body;
 
     if (orderItems && orderItems.length === 0) {
         res.status(400);
@@ -44,7 +44,7 @@ const addOrderItems = asyncHandler(async (req, res) => {
 // @route GET /api/orders/myorders
 // @access Private
 const getMyOrders = asyncHandler(async (req, res) => {
-    const orders = await Order.find({user: req.user._id});
+    const orders = await Order.find({ user: req.user._id });
     res.status(200).json(orders);
 });
 
