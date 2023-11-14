@@ -44,8 +44,8 @@ const Header = () => {
               <Nav.Item style={{ marginRight: "15px" }}>
                 <SearchBox />
               </Nav.Item>
-              <LinkContainer to="/cart" className="my-2">
-                <Nav.Link>
+              <LinkContainer to="/cart">
+                <Nav.Link className="my-2">
                   <FaShoppingCart />
                   Cart
                   {cartItems.length > 0 && (
@@ -70,7 +70,7 @@ const Header = () => {
                 </NavDropdown>
               ) : (
                 <LinkContainer to="login">
-                  <Nav.Link href="/login">
+                  <Nav.Link href="/login" className="my-2">
                     <FaUser />
                     Sign In
                   </Nav.Link>
