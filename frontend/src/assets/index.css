@@ -1,7 +1,9 @@
+/* General styles */
 main {
   min-height: 80vh;
 }
 
+/* Rating styles */
 .rating span {
   margin: 0.1rem;
 }
@@ -16,38 +18,106 @@ main {
   padding-left: 0.5rem;
 }
 
-.product-title {
-  height: 2.5em; /* Set a fixed height */
-  overflow: hidden; /* Hide overflow content */
-  text-overflow: ellipsis; /* Add ellipsis for long text */
-  white-space: nowrap; /* Prevent wrapping */
+/* Carousel styles */
+@media (max-width: 768px) {
+  .carousel-item {
+    height: 200px; /* Smaller height for smaller screens */
+  }
 }
 
+.carousel-item {
+  height: 400px; /* Default height */
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  transition: background-color 0.5s ease;
+}
+
+.carousel-caption:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Product card styles */
+.product-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.product-card .card-body {
+  position: relative;
+  z-index: 1;
+}
+
+.product-card .stretched-link {
+  z-index: 3;
+}
+
+.product-hover-preview {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  text-align: center;
+  padding: 10px;
+  z-index: 2;
+}
+
+.product-card:hover .product-hover-preview {
+  opacity: 1;
+}
+
+/* Table styles */
 table td,
 table th {
   text-align: center;
 }
 
-.review {
-  margin-top: 30px;
-}
+/* Review styles */
 
 .review h2 {
   font-size: 24px;
   background: #f4f4f4;
   padding: 10px;
   border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 .review button {
   margin-top: 10px;
 }
 
-.carousel-caption {
-  position: absolute;
-  width: 100%;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+/* Product title truncation */
+.product-title {
+  height: 2.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.custom-hr {
+  border-top: 1px solid #100505; /* Custom color and thickness */
+  margin-top: 50px; /* Custom margin above the line */
+  margin-bottom: 20px; /* Custom margin below the line */
 }
