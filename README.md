@@ -3,7 +3,6 @@
 ## Description
 
 Dropshop is an eCommerce application built using the MERN stack. It features client-side routing, user authentication, a dynamic product catalog, and integration with the PayPal API.
-Thank you to Brad Traversy @ TraversyMedia for the project material!
 
 ## Technologies Used
 
@@ -27,3 +26,7 @@ Thank you to Brad Traversy @ TraversyMedia for the project material!
 - Secure checkout and payment process
 - Order tracking and history for registered users
 - Admin dashboard for managing products and orders
+
+## Credits
+
+Thank you to Brad Traversy @ TraversyMedia for the project material!
