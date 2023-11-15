@@ -2,6 +2,7 @@
 
 ## Description
 
+[dropshop.stevensho.com](http://dropshop.stevensho.com)
 Dropshop is an eCommerce application built using the MERN stack. It features client-side routing, user authentication, a dynamic product catalog, and integration with the PayPal API.
 
 ## Technologies Used
