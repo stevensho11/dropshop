@@ -6,7 +6,7 @@ Visit Dropshop at [dropshop-on-aws.stevensho.com/](https://dropshop-on-aws.steve
 
 Dropshop is an eCommerce application built using the MERN stack. It features client-side routing, user authentication, a dynamic product catalog, and integration with the PayPal API.
 
-The application is also deployed using Amazon Web Services (AWS), leveraging the scalability and reliability of cloud computing. The backend is hosted on AWS Elastic Beanstalk, which automates server setup, capacity provisioning, and load balancing. The frontend is distributed via AWS CloudFront, ensuring fast delivery and enhanced user experience.
+The application is also deployed using Amazon Web Services (AWS) - The backend is hosted on AWS Elastic Beanstalk, which automates server setup, capacity provisioning, and load balancing. The frontend is distributed via AWS CloudFront, ensuring fast delivery and enhanced user experience.
 
 ## Technologies Used
 
